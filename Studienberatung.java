@@ -8,7 +8,8 @@ public class Studienberatung {
 		String antwort = scanner.nextLine();
 		
 		if (antwort.equalsIgnoreCase("Ja") {
-		
+			System.out.println("Bist du wissbegierig?");
+
 		}
 		
 		else if(antwort.equalsIgnoreCase("Nein") {
@@ -16,12 +17,9 @@ public class Studienberatung {
 			
 			
 
-		}	
-		
-		else {
+		} else {
 			System.out.println("VERTIPPT ERROR ERROR ERROR");
-
-		}
+		
 	}
 
 
