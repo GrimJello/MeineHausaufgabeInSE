@@ -6,6 +6,16 @@ public class Studienberatung {
 		
 		System.out.println("Hast du Abitur?");
 		String antwort = scanner.nextLine();
+		
+		if(antwort.equalsIgnoreCase("Ja")) {
+			
+		} else if (antwort.equalsIgnoreCase("Nein")) {
+			System.out.println("Bist du wissbegierig?");
+
+		} else {
+			System.out.println("ERROR");
+
+		}
 	}
 
 
