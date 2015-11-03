@@ -30,7 +30,18 @@ public class Studienberatung {
 			String antwort3 = scanner.nextLine();
 
 			if (antwort3.equalsIgnoreCase("Ja")) {
-			
+				System.out.println("Hast du eine Berufsausbildung?");
+				String antwort4 = scanner.nextLine();
+
+				if (antwort4.equalsIgnoreCase("Ja")) {
+					System.out.println("Kannst ja spaeter noch studieren!");
+				
+				} else if (antwort4.equalsIgnoreCase("Nein")){
+					System.out.println("Besser noch studieren bitte!");
+				
+				} else {
+					System.out.println("VERTIPPT ERROR ERROR ERROR");	
+				} 
 			
 			} else if (antwort3.equalsIgnoreCase("Nein")) {
 				System.out.println("Lieber nicht studieren!");
